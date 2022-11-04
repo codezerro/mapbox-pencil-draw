@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link
+            rel="shortcut icon"
+            href="./assets/draw.png"
+            type="image/x-icon"
+        />
+        <title>Mapbox Pencil Draw</title>
+        <meta
+            name="viewport"
+            content="initial-scale=1,maximum-scale=1,user-scalable=no"
+        />
+        <!-- mapbox-gl -->
+        <link
+            href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
+            rel="stylesheet"
+        />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+        <!-- turf.js -->
+        <script src="./lib/turf.min.js"></script>
+
+        <script src="./script.js" defer></script>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <link
+            rel="stylesheet"
+            href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.2.2/mapbox-gl-draw.css"
+            type="text/css"
+        />
+        <div id="drawme" class="drawme">draw me</div>
+        <div id="drawme-delete" class="drawme-delete">
+            <img src="./assets/delete.svg" alt="" srcset="" /> remove
+        </div>
+        <div class="github-link">
+            <img src="./assets/GitHub-Mark-32px.png" alt="github" />
+            <a
+                href="https://github.com/codezerro/mapbox-pencil-draw"
+                target="_blank"
+                >@codezerro</a
+            >
+        </div>
+        <div id="map"></div>
+    </body>
+</html>

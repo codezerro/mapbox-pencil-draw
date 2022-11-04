@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="45px" viewBox="0 0 34 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>PIN/DEFAULT</title>
+    <defs>
+        <ellipse id="path-1" cx="12" cy="33.3333333" rx="4.33333333" ry="1.33333333"></ellipse>
+        <filter x="-69.2%" y="-225.0%" width="238.5%" height="550.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M12.2658078,32.9731082 L21.9978903,12.6263915 C22.2200292,12.1821138 22.0819429,11.6537836 21.7757515,11.2995622 L12.4879466,1.56747967 C12.1757515,1.25528455 11.605395,1.25528455 11.3832562,1.56747967 L1.99939126,11.2995622 C1.68719614,11.6117573 1.55511359,12.1821138 1.77725243,12.6263915 L11.6414175,32.9731082 C11.8215301,33.4173859 12.0436689,33.4173859 12.2658078,32.9731082 Z" id="path-3"></path>
+        <filter x="-48.9%" y="-25.0%" width="197.8%" height="162.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.298039216   0 0 0 0 0.298039216   0 0 0 0 0.298039216  0 0 0 0.502431163 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pin-Key" transform="translate(-189.000000, -144.000000)">
+            <g id="PIN/DEFAULT" transform="translate(194.000000, 147.000000)">
+                <g id="Oval" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="PIN">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#4d92df" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <path d="M10.3773333,0.688666667 L1.03956717,10.374081 L0.964877453,10.4539053 C0.313522869,11.1848463 0.129985645,12.3132819 0.584682839,13.2226763 L10.4326667,33.5366667 L10.4057652,33.4740483 C11.0293778,35.0122928 12.7369274,35.0122928 13.4583774,33.569393 L23.2007119,13.2017157 C23.6579591,12.287678 23.445209,11.1920149 22.7844643,10.427624 L13.4525152,0.646944418 C12.6304545,-0.175595083 11.239631,-0.232321946 10.4596605,0.595825895 L10.3773333,0.688666667 Z M11.3832562,1.56747967 C11.5905858,1.27609756 12.1012516,1.25667209 12.4222451,1.50920325 L12.4879466,1.56747967 L21.7757515,11.2995622 C22.060072,11.6284821 22.1994449,12.1075264 22.0400479,12.5299967 L21.9978903,12.6263915 L12.2658078,32.9731082 C12.0567359,33.3912519 11.8476641,33.4158486 11.6736298,33.0468983 L11.6414175,32.9731082 L1.77725243,12.6263915 C1.56992285,12.2117323 1.67115945,11.6872445 1.93940533,11.3653296 L1.99939126,11.2995622 L11.3832562,1.56747967 Z" id="BORDER" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
